@@ -1,12 +1,13 @@
 package com.senai.projintrv.dto;
 
-public class UsuarioDTO {
+public class UsuarioDto {
 
     private String nome;
     private String login;
     private String senha;
 
-    public UsuarioDTO() {
+    // Correção: o construtor deve se chamar UsuarioDtos (igual ao nome da classe)
+    public UsuarioDto() {
     }
 
     public String getNome() {

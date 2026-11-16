@@ -1,7 +1,7 @@
 package com.senai.projintrv.controller;
 
 import com.senai.projintrv.dto.UsuarioDTO;
-import com.senai.projintrv.model.Usuario;
+import com.senai.projintrv.models.Usuario;
 import com.senai.projintrv.service.UsuarioService;
 
 import org.springframework.http.ResponseEntity;
